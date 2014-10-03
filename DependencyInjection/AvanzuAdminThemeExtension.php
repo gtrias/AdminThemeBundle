@@ -93,7 +93,7 @@ class AvanzuAdminThemeExtension extends Extension implements PrependExtensionInt
                                           $lteJs . 'plugins/datatables/jquery.dataTables.js',
                                           $lteJs . 'plugins/datatables/dataTables.bootstrap.js',
                                           $lteJs . 'plugins/slimScroll/jquery.slimscroll.js',
-                                          $jsAssets . 'public/vendor/adminlte/js/AdminLTE/app.js',
+                                          $jsAssets . 'public/js/adminLTE.js',
                                       )
                                   ),
                                   'admin_lte_css'          => array(
@@ -105,7 +105,7 @@ class AvanzuAdminThemeExtension extends Extension implements PrependExtensionInt
                                           $lteCss . 'datatables/dataTables.bootstrap.css',
                                           $cssAssets . 'vendor/fontawesome/css/font-awesome.min.css',
                                           $cssAssets . 'vendor/ionicons/css/ionicons.min.css',
-                                          $lteCss . 'adminlte.css',
+                                          $lteCss . 'AdminLTE.css',
                                           //$lteFont . 'fontawesome-webfont.eot',
                                           // $lteFont . 'ionicons.eot',
                                       )
