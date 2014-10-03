@@ -93,7 +93,7 @@ class AvanzuAdminThemeExtension extends Extension implements PrependExtensionInt
                                           $lteJs . 'plugins/datatables/jquery.dataTables.js',
                                           $lteJs . 'plugins/datatables/dataTables.bootstrap.js',
                                           $lteJs . 'plugins/slimScroll/jquery.slimscroll.js',
-                                          $jsAssets . 'public/js/adminlte.js',
+                                          $jsAssets . 'public/vendor/adminlte/js/AdminLTE/app.js',
                                       )
                                   ),
                                   'admin_lte_css'          => array(
